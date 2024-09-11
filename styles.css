@@ -1,0 +1,71 @@
+/* Script Básico da Página */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+
+/* Estilos para telas de até 400px */
+
+
+@media  (max-width: 400px) {
+    body {
+        background-color: rgb(7, 200, 116);
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+
+
+/* Estilos para telas de até 600px */
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(20, 105, 203);
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para telas de até 850px */
+@media  (max-width: 850px) {
+    body {
+        background-color: rgb(215, 215, 128);
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
